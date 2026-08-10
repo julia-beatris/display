@@ -1,0 +1,17 @@
+{
+  "name": "display",
+  "version": "1.0.0",
+  "description": "Estudos sobre HTML e CSS display",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "display",
+    "classes"
+  ],
+  "author": "julia beatris",
+  "license": "ISC"
+}
