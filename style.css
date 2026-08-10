@@ -4,28 +4,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.container {
+    background-color: rgb(214, 127, 156);
+    width: 300px;
+    height: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
 
 .body-container {
+
     background-color: rgb(250, 210, 217);
+
 }
 
+
+
+
+
+
 .header-container {
+    display: flex;
     width: 100vw;
     height: 100px;
-
     background-color: rgb(252, 191, 201);
-    /* padding-top: 10px; */
-    text-align: center;
+
 }
 
 .header-container a {
-    display: inline-block;
     background-color: rgb(250, 159, 174);
     margin-left: 10px;
     margin-top: 10px;
     font-size: x-large;
     text-decoration: none;
     padding: 5px;
+    border-radius: 10px;
 
 }
+
+/* pseudo classe que identifica a posição do cursor do mouse*/
+
+.header-container a:hover {
+
+    background-color: bisque;
+    border: 2px solid rgb(221, 188, 221);
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: palevioletred;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+
+.section01 {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    padding-left: 20px;
+    /* borda apreviada */
+    border: 2px solid palevioletred;
+
+}
+
+
+
+
+
+
+
+
+
+.section01--title {
+
+    margin-bottom: 10px;
+
+}
+
+
+.link-lista {
+    font-size: medium;
+    line-height: 30px;
+}
+
+
+/* Display none: não aparece na tela
+   Display in-line: elementos são em linha (ocupa apenas o seu espaço)
+   Display block: elementos são um abaixo do outro, aceitas largura e altura(ocupa a linha inteira)
+   Display in-line block: elementos em linha + largura e altura */
