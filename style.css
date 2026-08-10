@@ -1,15 +1,31 @@
 /* Reset padrão*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.body-container {
+    background-color: rgb(250, 210, 217);
+}
 
-.header-container{
+.header-container {
     width: 100vw;
-    height: 200px;
+    height: 100px;
 
-    background-color: palevioletred;
+    background-color: rgb(252, 191, 201);
+    /* padding-top: 10px; */
+    text-align: center;
+}
+
+.header-container a {
+    display: inline-block;
+    background-color: rgb(250, 159, 174);
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+
 }
