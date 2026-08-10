@@ -12,6 +12,7 @@
     "display",
     "classes"
   ],
+  "gitbub": "https://github.com/julia-beatris/display.git",
   "author": "julia beatris",
   "license": "ISC"
 }

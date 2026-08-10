@@ -34,6 +34,20 @@ Durante o projeto, são explorados conceitos como:
 - HTML5
 - CSS3
 
+## 📖 Sobre o projeto
+
+Este é um projeto de estudo desenvolvido para compreender melhor o funcionamento da propriedade display e sua importância na construção de layouts com CSS.
+
+A proposta é aprender na prática, utilizando exemplos simples e visuais para entender quando e por que utilizar cada tipo de display
+
+
+## 🚀 Como executar
+Clone este repositório:
+
+git clone https://github.com/julia-beatris/display.git
+
+Abra o arquivo index.html no navegador.
+
 ## 📂 Estrutura
 
 ```text
