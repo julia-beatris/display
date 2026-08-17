@@ -1,0 +1,58 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização da Body */
+body {
+    background-color: rgb(186, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Header que abraça o Banner */
+.content-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Banner de Topo */
+.banner-header {
+    width: 1202px;
+    height: 380px;
+    background-color: rgb(134, 229, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Área Principal */
+.content-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container que segura as 3 caixas */
+.content-hero {
+    width: 1202px;
+    height: 482px;
+    display: flex;
+    justify-content: space-between; /* Espalha as 3 caixas pelas pontas */
+    align-items: center;
+}
+
+/* Estilo base das caixas */
+.box {
+    width: 356px;
+    height: 482px;
+    background-color: rgb(180, 231, 255);
+    border-radius: 12px;
+    border: 2px solid rgb(121, 179, 226);
+}
