@@ -1,0 +1,45 @@
+/* Importação dos arquivos de estilos*/
+@import url(./reset.css);
+@import url(./desing-system.css);
+
+
+
+/* 3. CSS GLOBAL - LAYOUT, EFEITOS E ESTRUTURA BEM */
+
+.color-section{
+
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+
+}
+
+.color-section__sidebar{
+
+}
+
+.color-section__title{
+
+}
+
+.color-section__menu{
+
+}
+
+.color-section__link{
+
+}
+
+.color-section__link--active{
+
+}
+
+.color-section__link--active:hover{
+
+
+}
+
+.color-section__link--active:not{
+
+}
