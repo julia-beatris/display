@@ -7,8 +7,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+:root{
+
+    --bg-color-containe: rgb(214, 127, 156);
+    --banana: rgb(250, 210, 217)
+
+    --fonte-padrao: Arial;
+
+}
+
 .container {
-    background-color: rgb(214, 127, 156);
+    background-color: var(--bg-color-containe);
     width: 300px;
     height: 300px;
     font-family: 'Courier New', Courier, monospace;
@@ -18,7 +27,7 @@
 
 .body-container {
 
-    background-color: rgb(250, 210, 217);
+    background-color: var(--banana);
 
 }
 
