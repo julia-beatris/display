@@ -1,35 +1,91 @@
-/* Reset CSS */
+/* ==========================================================================
+   1. RESET E CONFIGURAÇÕES GERAIS
+   ========================================================================== */
 
+/* Aplica o reset para todos os elementos da página (*) */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    margin: 0;             /* Remove as margens padrão dos navegadores */
+    padding: 0;            /* Remove os espaçamentos internos padrão */
+    box-sizing: border-box; /* Garante que padding e border não alterem o tamanho total do elemento */
+    font-family: Helvetica, sans-serif; /* Define a tipografia padrão para todo o projeto */
 }
 
+/* ==========================================================================
+   2. ESTRUTURA PRINCIPAL (LAYOUT)
+   ========================================================================== */
+
+/* Container geral da página */
 .main-container {
-
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+    height: 100vh;         /* Ocupa 100% da altura da tela (Viewport Height) */
+    display: flex;         /* Habilita o Flexbox para alinhar os elementos lado a lado */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;   /* Centraliza o conteúdo verticalmente */
+    gap: 15px;             /* Espaço de 15px entre a coluna da esquerda e a da direita */
 }
 
+/* Estilização para textos sobrescritos dentro do container */
 .main-container sup {
-
-    font-size: 10px;
-    color: blue;
+    font-size: 10px;       /* Reduz o tamanho da fonte para o número da nota */
+    color: blue;           /* Define a cor do número da nota como azul */
 }
 
+/* ==========================================================================
+   3. COLUNA DA ESQUERDA (IMAGEM)
+   ========================================================================== */
+
+/* Imagem do produto */
 .main-container__left img {
-
-    width: 300px;
-    height: 450px;
+    width: 300px;          /* Define a largura fixa da imagem */
+    height: 450px;         /* Define a altura fixa da imagem */
+    object-fit: cover;     /* Dica profissional: evita distorcer a imagem ao ajustar tamanho */
 }
 
-.main-container__right {
+/* ==========================================================================
+   4. COLUNA DA DIREITA (INFORMAÇÕES DE TEXTO)
+   ========================================================================== */
 
-    width: 650px;
-    height: 450px;
+/* Container da coluna direita */
+.main-container__right {
+    width: 650px;          /* Define a largura total do bloco de textos */
+    height: 450px;         /* Mantém a mesma altura da imagem da esquerda */
+}
+
+/* --- Bloco 1: Título e Subtítulo --- */
+.main-container__right--title {
+    display: flex;
+    flex-direction: column; /* Organiza o H1 e o subtítulo um abaixo do outro */
+    justify-content: center;/* Centraliza verticalmente dentro dos 150px de altura */
+    height: 150px;          /* Define a altura da seção do título */
+}
+
+/* Subtítulo "Silício-carbono" */
+.main-container__right--subtitle {
+    color: #32c6f7;        /* Cor azul/ciano (remediação: removidas as aspas inválidas do código original) */
+    margin-top: 15px;      /* Espaçamento superior em relação ao H1 */
+}
+
+/* --- Bloco 2: Seção da Bateria (15 min / 38 horas) --- */
+.main-container__right--bateria {
+    height: 150px;          /* Altura igual às outras duas seções para equilibrar o layout */
+    display: flex;         /* Coloca os blocos "15 minutos" e "38 horas" lado a lado */
+    align-items: center;   /* Alinha verticalmente os elementos internos */
+    gap: 20px;             /* Espaço de 20px entre os dois blocos de tempo */
+}
+
+/* Títulos H2 dentro do bloco de bateria */
+.main-container__right--bateria h2 {
+    margin-bottom: 15px;   /* Separa o título (ex: "15 minutos") do parágrafo abaixo dele */
+}
+
+/* --- Bloco 3: Rodapé (Carregamento Sem Fio) --- */
+.main-container__right--charge {
+    height: 150px;          /* Altura da última seção (150px + 150px + 150px = 450px no total) */
+    display: flex;
+    flex-direction: column; /* Organiza o título e a descrição verticalmente */
+    justify-content: center;/* Centraliza o conteúdo verticalmente */
+}
+
+/* Título H2 do bloco de carregamento sem fio */
+.main-container__right--charge h2 {
+    margin-bottom: 15px;   /* Mantém a mesma distância que os outros H2s possuem para o parágrafo */
 }
