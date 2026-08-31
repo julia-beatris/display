@@ -26,5 +26,17 @@
     --color-cmyk-5: #03e6e6; 
     --color-cmyk-6: #d900d9; 
 
+ 
+   /* Paleta do Sistema Netflix */
+    --color-netflix-1 :#221F1F;
+    --color-netflix-2 :#E50914;
+    --color-netflix-3 :#F5F5F1;
+
+    /* Paleta do Sistema Google */
+    --color-google-1:#4285F4;
+    --color-google-2:#FBBC05;
+    --color-google-3: #34A853;
+    --color-google-4:#EA4335;
+
 
 }
