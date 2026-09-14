@@ -4,13 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-html{
     
-    /* Ativa a rolagem suave nativa para links âncoras */
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-
+    font-family: "Inter", sans-serif;
+    color: "#2a2a2a";
 }
+
+

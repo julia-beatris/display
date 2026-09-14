@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./reset.css);
+@import url(./desing-system.css);
+
+
+
+.brands{
+    padding: 30px;
+}
+
+
+.brands__title {
+
+}
+
+.brands__title h1 {
+
+}
+
+.brands__grid{
+
+}
+
+.brands-card{
+
+}
+
+.brands-card__image{
+
+}
+
+.brands-card__image span{
+
+}
+
+.brands-card__title{
+    
+}
