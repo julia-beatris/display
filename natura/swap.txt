@@ -1,0 +1,28 @@
+<main class="brands">
+
+        <section class="brands__title">
+
+            <h1> Conheça as Nossas Marcas</h1>
+
+        </section>
+
+
+        <section class="brands__grid">
+
+            <img src="" alt="" class="brand-card__image">
+
+            <h2 class="brand-card__title">
+
+            </h2>
+
+            <p class="brand-card__description">
+
+            </p>
+
+            <a href="" class="brand-card__button">
+
+            </a>
+        </section>
+
+
+    </main>
