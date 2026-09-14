@@ -62,7 +62,7 @@
 
 .brand-card__description{
 
-    font-family: "montserrat", sans-serif;
+    font-family: var(--font-family-description);
     color: var(--color-description);
     font-size: 16px;
     line-height: 1.6;
