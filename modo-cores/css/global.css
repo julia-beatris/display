@@ -128,8 +128,15 @@
 
 .color-section__faq{
 
+    flex-grow: 1;
+    background-color: var();
+    padding: 35px 40px;
+    border-top: 3px solid var(--ui-border);
+    display: flex;
+    flex-direction: column;
+
 }
 
 .color-section__faq-item{
-    
+
 }
