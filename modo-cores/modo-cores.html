@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="css/global.css">
 
 </head>
+
 <body>
-    
+
     <!-- SEÇÃO 1 : MODELO RGB (Baseado em luz : Red, Green, Blue) -->
     <section id="rgb" class="color-section">
 
@@ -26,27 +28,61 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--rgb-1"><span><strong>rgb(255, 0, 0)</strong></span></div>
+        <div class="color-section__content">
 
-        <div class="color-section__bar color-section__bar--rgb-2"><span><strong>rgb(0, 255, 0)</strong></span></div>
+            <section class="color-section__palette" aria-label="Visualização da Paleta RGB">
+                <div class="color-section__bar color-section__bar--rgb-1"><span><strong>rgb(255, 0, 0)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-2"><span><strong>rgb(0, 255, 0)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-3"><span><strong>rgb(0, 0, 255)</strong> </span></div>
+                <div class="color-section__bar color-section__bar--rgb-4"><span><strong>rgb(255, 255, 0)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-5"><span><strong>rgb(0, 255, 255)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-6"><span><strong>rgb(255, 0, 255)</strong></span></div>
+            </section>
 
-        <div class="color-section__bar color-section__bar--rgb-3"><span>r<strong>gb(0, 0, 255)</strong> </span></div>
 
-        <div class="color-section__bar color-section__bar--rgb-4"><span><strong>rgb(255, 255, 0)</strong></span></div>
+            <section class="color-section__faq" arial-labelledy="faq-rgb-title">
 
-        <div class="color-section__bar color-section__bar--rgb-5"><span><strong>rgb(0, 255, 255)</strong></span></div>
+                <h3 id="faq-rgb-title" class="color-section__faq-title">
+                    Perguntas Frequentes sobre RGB
+                </h3>
 
-        <div class="color-section__bar color-section__bar--rgb-6"><span><strong>rgb(255, 0, 255)</strong> </span></div>
+                <details class="color-section__faq-item">
 
-     
+                    <summary class="color-section__faq-question">Como é estruturada a paleta de cores do sistema RGB?</summary>
+
+                    <p class="color-section__faq-answer">A paleta RGB é formada a partir de três cores primárias de luz: Vermelho (Red), Verde (Green) e Azul (Blue). A combinação dessas três fontes em diferentes intensidades permite gerar mais de 16,7 milhões de cores na tela.</p>
+                </details>
+
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Como a paleta RGB cria cores secundárias e o branco?</summary>
+
+                    <p class="color-section__faq-answer">A paleta mistura luzes diretamente: a junção de Vermelho com Verde gera o Amarelo; Vermelho com Azul gera o Magenta; e Verde com Azul gera o Ciano. Quando as três cores estão em 100% de intensidade, a paleta atinge o Branco.</p>
+
+                </details>
+
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que a paleta de cores RGB é caracterizada pelo alto brilho e saturação?</summary>
+
+                    <p class="color-section__faq-answer">Porque, por ser baseada em emissão de luz vinda de telas (monitores e celulares), a paleta consegue alcançar tons neon, elétricos e muito vibrantes que nenhum pigmento físico ou tinta consegue reproduzir.</p>
+
+                </details>
+            </section>
+
+        </div>
+
+
 
     </section>
 
-    
+
     <!-- SEÇÃO 2 : MODELO CMYK (Baseado em Pigmento/Impressão) -->
-    
-        <section id="cmyk" class="color-section">
-    
+
+    <section id="cmyk" class="color-section">
+
 
         <aside class="color-section__sidebar">
             <h2 class="color-section__title">Modelo CMYK</h2>
@@ -59,19 +95,52 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--cmyk-1"><span><strong>#e60000</strong></span></div>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta CMYK">
+                <div class="color-section__bar color-section__bar--cmyk-1"><span><strong>#e60000</strong></span></div>
+                <div class="color-section__bar color-section__bar--cmyk-2"><span><strong>#006b00</strong></span></div>
+                <div class="color-section__bar color-section__bar--cmyk-3"><span><strong>#0000ae</strong></span></div>
+                <div class="color-section__bar color-section__bar--cmyk-4"><span><strong>#dfdf05</strong></span></div>
+                <div class="color-section__bar color-section__bar--cmyk-5"><span><strong>#03e6e6</strong></span></div>
+                <div class="color-section__bar color-section__bar--cmyk-6"><span><strong>#d900d9</strong></span></div>
+            </section>
 
-        <div class="color-section__bar color-section__bar--cmyk-2"><span><strong>#006b00</strong></span></div>
+            <section class="color-section__faq" arial-labelledy="faq-rgb-title">
 
-        <div class="color-section__bar color-section__bar--cmyk-3"><span><strong>#0000ae</strong></span></div>
+                <h3 id="faq-rgb-title" class="color-section__faq-title">
+                    Perguntas Frequentes sobre CMYK
+                </h3>
 
-        <div class="color-section__bar color-section__bar--cmyk-4"><span><strong>#dfdf05</strong></span></div>
+                <details class="color-section__faq-item">
 
-        <div class="color-section__bar color-section__bar--cmyk-5"><span><strong>#03e6e6</strong></span></div>
+                    <summary class="color-section__faq-question">Como funciona a paleta de cores no sistema CMYK?</summary>
 
-        <div class="color-section__bar color-section__bar--cmyk-6"><span><strong>#d900d9</strong></span></div>
+                    <p class="color-section__faq-answer">A paleta é composta por quatro pigmentos básicos: Ciano, Magenta, Amarelo e Preto (Key). Ela opera por subtração de luz: conforme as tintas são misturadas sobre o papel, elas absorvem a luz e a combinação vai se tornando mais escura.</p>
+                </details>
 
-    </section> 
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Como a paleta CMYK gera as cores secundárias e o tom preto?</summary>
+
+                    <p class="color-section__faq-answer">A mistura de Magenta com Amarelo produz o Vermelho; Ciano com Amarelo produz o Verde; e Ciano com Magenta produz o Azul. A mistura teórica dos três pigmentos gera um tom marrom escuro, por isso adiciona-se o pigmento Preto (K) para garantir um preto puro e contraste preciso.</p>
+
+                </details>
+
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que a paleta de cores CMYK é considerada "limitada" em comparação com as telas?</summary>
+
+                    <p class="color-section__faq-answer">Porque o alcance de cores (gamut) de pigmentos físicos no papel é menor do que a luz projetada por monitores. Tons muito luminosos (como azuis elétricos e verdes limão) não entram na paleta CMYK e saem mais foscos na impressão.</p>
+
+                </details>
+            </section>
+
+        </div>
+
+    </section>
+
 
     <!-- SEÇÃO 3 : MODELO NETFLIX  -->
     <section id="netflix" class="color-section">
@@ -88,16 +157,52 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--netflix-1"><span><strong>#221F1F</strong></span></div>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta NETFLIX">
+                <div class="color-section__bar color-section__bar--netflix-1"><span><strong>#221F1F</strong></span></div>
+                <div class="color-section__bar color-section__bar--netflix-2"><span><strong>#E50914</strong></span></div>
+                <div class="color-section__bar color-section__bar--netflix-3"><span><strong>#F5F5F1</strong></span></div>
+            </section>
 
-        <div class="color-section__bar color-section__bar--netflix-2"><span><strong>#E50914</strong></span></div>
+            <section class="color-section__faq" arial-labelledy="faq-rgb-title">
 
-        <div class="color-section__bar color-section__bar--netflix-3"><span><strong>#F5F5F1</strong></span></div>
+                <h3 id="faq-rgb-title" class="color-section__faq-title">
+                    Perguntas Frequentes sobre a NETFLIX
+                </h3>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Qual é a composição exata da paleta de cores principal da Netflix?</summary>
+
+                    <p class="color-section__faq-answer">É uma paleta minimalista e de alto contraste centrada no Vermelho Netflix (#E50914), complementada por variações de Preto (#000000), cinzas muito escuros e o Branco para textos.</p>
+                </details>
 
 
-    </section> 
+                <details class="color-section__faq-item">
 
-     <!-- SEÇÃO 4 : MODELO GOOGLE  -->
+                    <summary class="color-section__faq-question">Por que a paleta de cores da Netflix foca na harmonia do vermelho com fundos escuros?</summary>
+
+                    <p class="color-section__faq-answer">O tom de vermelho vibrante é uma cor quente que gera impacto visual e urgência, enquanto o fundo preto simula a iluminação de uma sala de cinema, fazendo com que as capas dos filmes e séries se destaquem na interface.</p>
+
+                </details>
+
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Existe uma paleta secundária usada na identidade visual da Netflix?</summary>
+
+                    <p class="color-section__faq-answer">Sim. Além do vermelho institucional, a marca utiliza uma paleta estendida em gradiente (com tons de rosa, roxo, azul e amarelo) presente nas animações de abertura e materiais promocionais para demonstrar a diversidade de gêneros do seu catálogo.</p>
+
+                </details>
+            </section>
+
+        </div>
+
+
+    </section>
+
+    
+    <!-- SEÇÃO 4 : MODELO GOOGLE  -->
     <section id="google" class="color-section">
 
         <aside class="color-section__sidebar">
@@ -112,18 +217,53 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--google-1"><span><strong>#4285F4</strong></span></div>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta GOOGLE">
+                <div class="color-section__bar color-section__bar--google-1"><span><strong>#4285F4</strong></span></div>
+                <div class="color-section__bar color-section__bar--google-2"><span><strong>#FBBC05</strong></span></div>
+                <div class="color-section__bar color-section__bar--google-3"><span><strong>#34A853</strong></span></div>
+                <div class="color-section__bar color-section__bar--google-4"><span><strong>#EA4335</strong></span></div>
+            </section>
 
-        <div class="color-section__bar color-section__bar--google-2"><span><strong>#FBBC05</strong></span></div>
+            <section class="color-section__faq" arial-labelledy="faq-rgb-title">
 
-        <div class="color-section__bar color-section__bar--google-3"><span><strong>#34A853</strong></span></div>
+                <h3 id="faq-rgb-title" class="color-section__faq-title">
+                    Perguntas Frequentes sobre GOOGLE
+                </h3>
 
-        <div class="color-section__bar color-section__bar--google-4"><span><strong>#EA4335</strong></span></div>
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Quais são as cores oficiais que formam a paleta do Google?</summary>
+
+                    <p class="color-section__faq-answer">A paleta é composta por quatro cores específicas: Azul (#4285F4), Vermelho (#EA4335), Amarelo (#FBBC05) e Verde (#34A853).</p>
+                </details>
 
 
-    </section> 
+                <details class="color-section__faq-item">
 
-    
+                    <summary class="color-section__faq-question">Qual é a lógica de teoria das cores por trás da paleta do Google?</summary>
+
+                    <p class="color-section__faq-answer">A paleta combina três cores primárias (Azul, Vermelho e Amarelo) e insere uma cor secundária (o Verde). Essa quebra de padrão foi planejada para transmitir a ideia de que o Google é uma empresa inteligente, mas acessível, divertida e que "não segue regras rígidas"</p>
+
+                </details>
+
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Como a paleta do Google se distribui proporcionalmente na sua marca e produtos?</summary>
+
+                    <p class="color-section__faq-answer">O Azul é a cor dominante na paleta (usado para transmitir confiança e tecnologia), enquanto o Vermelho, o Amarelo e o Verde são aplicados de forma equilibrada em pontos de destaque, ícones de aplicativos (como o Drive, Fotos e Maps) e elementos interativos.</p>
+
+                </details>
+            </section>
+
+        </div>
+
+
+    </section>
+
+
 
 </body>
+
 </html>
