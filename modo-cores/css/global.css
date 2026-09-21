@@ -180,3 +180,35 @@
 .color-section__faq-question::-webkit-details-marker {
     display: none;
 }
+
+.color-section__faq-question::after {
+    content: "✦";
+    font-size: 16px;
+    color: var(--faq-border-neon-glow);
+    transition: transform 0.9s ease, color 0.9s ease;
+}
+
+.color-section__faq-item[open] .color-section__faq-question::after{
+
+    transform: rotate(180deg) scale(1.3);
+    color: #ffffff;
+}
+
+.color-section__faq-item:hover .color-section__faq-question{
+    color: #ffffff;
+}
+
+.color-section__faq-answer{
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--faq-text-answer);
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    transition: color 0.3s ease;
+
+}
+
+.color-section__faq-answer:hover{
+    color: #ffffff;
+}
