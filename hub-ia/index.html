@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplo de @media</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <style>
+
+        body{
+            padding: 20px;
+            background-color: palevioletred;
+            color: black;
+            font-family: Arial,sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container{
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap; 
+        }
+
+        .box{
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        @media (min-width: 768px) {
+           body {
+               background-color: rgb(227, 144, 238);
+               color: azure;
+           }
+
+       }
+        @media (min-width: 992px) {
+            body {
+                background-color: rgb(144, 169, 238);
+                color: black;
+            }
+
+            }
+
+       
+
+    </style>
+
 </head>
+
+
 <body>
-    
+    <h1> Este é um teste de @media.</h1>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
 </body>
+
 </html>
