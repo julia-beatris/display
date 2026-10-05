@@ -1,30 +1,37 @@
 :root {
-
-    /* Paleta de Cores */
-
+    /* cores principais (paleta clara tecnológica) */
     --color-bg-body: #f4f8fb;
     --color-bg-transparent: rgba(255, 255, 255, 0.9);
-    --color-bg-card: #ffffff;
+    --color-bg-card: #fff;
     --color-primary: #0284c7;
     --color-primary-hover: #0369a1;
     --color-secondary: #0d9488;
+    --color-accent: #2563eb;
+    --color-highlight: #fef08a;
+
+    /* textos e bordas */
     --color-text-main: #0f172a;
     --color-text-muted: #475569;
     --color-border: #e2e8f0;
     --color-nav-list-bg: #f1f5f9;
-    --color-nav-link-hover: #ffffff;
+    --color-nav-link-hover: #fff;
 
-    /* Tipografia */
-    --font-main: 'Segoe UI', system-ui,
-    -apple-system, sans-serif;
-    --font-size-sm: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-xl: 1.875rem;
+    /* tipografia (base 10px = 1rem) */
+    --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --font-size-sm: 1.4rem;
+    --font-size-base: 1.6rem;
+    --font-size-lg: 2rem;
+    --font-size-xl: 3rem;
 
-    /* Layout e Estrutura */
+    /* efeitos e sombras */
+    --radius-sm: 0.8rem;
+    --radius-md: 1.6rem;
+    --shadow-card: 0 10px 25px -5px rgba(148, 163, 184, 0.25);
+    --shadow-hover: 0 15px 30px -5px rgba(2, 132, 199, 0.2);
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* alturas do layout */
     --header-height: 10vh;
     --footer-height: 8vh;
     --section-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
-
-
